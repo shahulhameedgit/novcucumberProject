@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5372727800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the swiggy url in chrome.",
+            "match": {
+              "location": "org.swiggy.stepdefinition.LoginStepdefinition.Open_the_swiggy_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246126000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select the Sign up button for registration",
+            "match": {
+              "location": "org.swiggy.stepdefinition.LoginStepdefinition.click_sign_up()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-15T05:04:49.199Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3608000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.swiggy.stepdefinition.Hook.beforesmoke()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "checking the phone number field with postiive data.",
+        "description": "",
+        "id": "check-the-registration-page-is-validation-of-field-as-per-requirment.;checking-the-phone-number-field-with-postiive-data.",
+        "after": [
+          {
+            "result": {
+              "duration": 286543300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.swiggy.stepdefinition.Hook.afterscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 199925300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Find the phone number field and Enter the data \"9897677676\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9897677676\"",
+                  "offset": 47
+                }
+              ],
+              "location": "org.swiggy.stepdefinition.LoginStepdefinition.find_the_phone_number_field_and_enter_the_data(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187899600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on continue button",
+            "match": {
+              "location": "org.swiggy.stepdefinition.LoginStepdefinition.click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63048800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check the phone number text box label is showing \"Phone number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phone number\"",
+                  "offset": 49
+                }
+              ],
+              "location": "org.swiggy.stepdefinition.LoginStepdefinition.check_the_phone_number_text_box_label_is_showing(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "check the registration page is validation of field as per requirment.",
+    "description": "",
+    "id": "check-the-registration-page-is-validation-of-field-as-per-requirment.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/login.feature",
+    "tags": []
+  }
+]
